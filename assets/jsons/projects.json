@@ -1,0 +1,38 @@
+[
+  {
+    "title": "rogue-like dungeon crawler",
+    "date": "03.2019 - 06.2019",
+    "imgUrl": "assets/img/fade.gif",
+    "description": "In a team of four we tried to develop an interesting dungeon crawler game in Java using Ashley (in order to learn ECS and stuff). Personally, I was in charge of e.g. fov system, fog of war system, path-finding algorithms, procedural map generation and ai. <br> <br> More info and sourcecode on <a href='http://bit.ly/thelegendofericc'> github</a>."
+  },
+  {
+    "title": "interstellar shopkeeper",
+    "date": "03.2019 - 05.2019",
+    "imgUrl": "assets/img/game.gif",
+    "description": "This is more of a web service than an actual game, I tried to develop the most intuitive UI for the end user. Implemented a lot of animations in css (utilising js/ts when necessary), game stores its data on client's side in local storage for the most part, updating the DOM (react-like). Everything was made from scratch without using any 3rd part libraries. <br> <br> Play <a href='http://students.mimuw.edu.pl/~fm394471/wwwdev/www/index.html'> here </a>, view <a href='https://github.com/fiffeek/www'> sourcecode</a>."
+  },
+  {
+    "title": "algorithms library",
+    "date": "01.2019 - WIP",
+    "imgUrl": "assets/img/algo.png",
+    "description": "A library for algorithms showcase and usage presentation. I went with header only library so that the end user would not worry about linkage etc (also I use a lot of templates in this project). I implemented fully customizable segment trees and ternary search trees. <br> <br> Get it <a href='http://bit.ly/algoLib'> on github</a>."
+  },
+  {
+    "title": "twitter clone",
+    "date": "11.2018 - 12.2018",
+    "imgUrl": "assets/img/twitter.gif",
+    "description": "As I mentioned in my <a href='experience.html'>experience</a> tab, as a part of my job @ SIO2project I was asked to built a twitter clone application in order to grasp the basics of Django framework (and python too!). This site is a simple rip-off from the original one (not using redis but the design is better :]) <br> <br> <a href='http://bit.ly/twitterLoginClone'>Try</a> it online or look at the <a href='http://bit.ly/twitterCloneRepo'> sources</a> here."
+  },
+  {
+    "title": "turnstiles",
+    "date": "10.2018 - 12.2018",
+    "imgUrl": "assets/img/turnstiles.png",
+    "description": "Implementation of turnstiles from the FreeBSD/NetBSD/Solaris kernel in order to lower the memory footprint of usual mutexes in C++11. Long story short, a single thread cannot sleep on more than one mutex at a time and this fact allows all mutexes to be just placeholders. <br> <br> Read more about the implementation <a href='http://bit.ly/turnstilesRepo'> here</a>."
+  },
+  {
+    "title": "mario the game",
+    "date": "10.2018 - 12.2018",
+    "imgUrl": "assets/img/mario.gif",
+    "description": "An interactive game to help visualize the Dijkstra's algorithm. Made entirely in angular, there are limited game resources like map etc, game was made in one weekend for a competition on our university which it won. <br> <br> <a href='http://bit.ly/marioTheGame'>Play</a> it here."
+  }
+]

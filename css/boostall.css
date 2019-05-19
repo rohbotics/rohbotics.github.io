@@ -1,0 +1,28 @@
+:root {
+    --default-padding: 30px;
+}
+
+html {
+    font-size: 1.5rem;
+}
+
+.borderline {
+    border-bottom: 1.5px solid var(--main-font-color);
+}
+
+.index-menu div {
+    padding: var(--default-padding);
+}
+
+.single-link {
+    font-size: 18px;
+}
+
+.social-cell {
+    width: 250px;
+    margin: 5px 0;
+}
+
+.social-cell img {
+    width: 38px;
+}

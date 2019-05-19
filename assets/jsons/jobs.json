@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cofounder - Lead Software Engineer ",
+    "timeframe": "1.2016 - Now",
+    "place": "Ubiquity Robotics",
+    "description": "Robotics company with a vision to revolutionize robotics development. Everybody that wants to make a robot has to start out by creating the same basic setup: motors, wheels, power, etc. We create a hardware platform to allow app builders to focus on their apps. <br><br> Since founding, I have worked on all levels of the software and hardware engineering. Today I focus on the ROS software stack that powers Magni, and working with customers to make our robot work for their business goals."
+  },
+  {
+    "title": "Engineering Intern",
+    "timeframe": "Summer 2018",
+    "place": "Salisbury Robotics, Stanford",
+    "description": "Improved the field diagnostics of autonomous navigation and the sensors it relied on, allowing our operations team to gain better insights into how the robots were performing after deployment."
+  },
+  {
+    "title": "Robot Navigation Intern",
+    "timeframe": "06.2017 - 07.2017",
+    "place": "Savioke",
+    "description": "Teamworking with other computer graphic designers and marketing team. <a href='https://www.youtube.com/channel/UCQ9ZvG9NtuWEGmZx7_HwrSg'> Video </a> production - <a href='https://bit.ly/futuramoapps'> product promotion </a> for the futuramo apps. <br> <br> Had a blast while designing the entire promotion alongside other designers who could help me optimise and reinvent my workflow. I also improved the company's system which contacted them with possible clients and managed the clients' databases."
+  }
+]
