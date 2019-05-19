@@ -34,7 +34,7 @@ p {
 }
 
 .single-job p {
-    text-align: justify;
+    text-align: left;
 }
 
 .single-job h3::before {
