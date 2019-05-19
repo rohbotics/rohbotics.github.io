@@ -175,30 +175,30 @@ h1, h2, h3, h4, h5, h6 {
 .main-body {
     width: 80%;
     min-height: 120vh;
-    padding-top: calc(3 * var(--default-padding));
+    padding-top: calc(2 * var(--default-padding));
 }
 
 @media only screen and (min-width: 700px) {
     .main-body {
-        width: 70%;
+        width: 75%;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .main-body {
-        width: 60%;
+        width: 70%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .main-body {
-        width: 40%;
+        width: 50%;
     }
 }
 
 @media only screen and (min-width: 1500px) {
     .main-body {
-        width: 35%;
+        width: 40%;
     }
 }
 
