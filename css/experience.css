@@ -28,7 +28,7 @@ p {
 .single-job {
     margin-top: 0;
     margin: calc(2 * var(--default-padding)) 0;
-    margin-bottom: calc(3 * var(--default-padding));
+    margin-bottom: calc(2 * var(--default-padding));
     padding-left: calc(2 * var(--default-padding));
     position: relative;
 }
