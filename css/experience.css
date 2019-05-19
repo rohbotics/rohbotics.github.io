@@ -1,9 +1,5 @@
 @import "global.css";
 
-main div {
-    margin: calc(2 * var(--default-padding)) 0;
-}
-
 h4 {
     line-height: 1.5;
     opacity: .6;
@@ -31,6 +27,7 @@ p {
 
 .single-job {
     margin-top: 0;
+    margin: calc(2 * var(--default-padding)) 0;
     margin-bottom: calc(3 * var(--default-padding));
     padding-left: calc(2 * var(--default-padding));
     position: relative;

@@ -2,6 +2,22 @@
 @import "animations.css";
 @import "global.css";
 
+.profile-image-with-text {
+    display: grid;
+}
+
+@media only screen and (max-width: 700px) {
+    .profile-image-with-text {
+        grid-template-rows: ;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .profile-image-with-text {
+        grid-template-columns: 2fr 3fr;
+    }
+}
+
 html, body {
     height: calc(100% - 23px);
     font-family: var(--main-font-family);
@@ -25,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.centerize-vertical {
+    display: flex;
     align-items: center;
 }
 
