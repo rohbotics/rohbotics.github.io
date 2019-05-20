@@ -5,7 +5,7 @@ let getSourceFromService = {
     "cv": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-cv.png",
     "leetcode": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-leetcode.png",
     "youtube": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-youtube.svg",
-    "telegram": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-telegram.png",
+    "telegram": "assets/icons/Font_Awesome_5_brands_telegram.svg",
     "behance": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-behance.svg",
     "devianart": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-devianart.svg",
     "dribble": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-dribble.svg",

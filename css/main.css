@@ -137,17 +137,38 @@ h1, h2, h3, h4, h5, h6 {
     animation: slide-from-left .5s ease-out;
 }
 
-.social-grid {
-    left: 0;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
+@media only screen and (max-width: 700px) {
+    .social-grid {
+        position: relative;
+        top: 0%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .social-cell span {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .social-grid {
+        left: 0;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .social-cell {
+        width: 170px;
+    }
+    .social-cell span {
+        opacity: 0;
+        transform: rotateY(45deg) skew(10deg);
+        transition: all .5s ease;
+    }
 }
 
 .social-cell {
-    width: 170px;
     height: 5vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -167,12 +188,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--main-font-color);
 }
 
-.social-cell span {
-    opacity: 0;
-    transform: rotateY(45deg) skew(10deg);
-    transition: all .5s ease;
-}
-
 .social-cell:hover img {
     opacity: 1;
     transform: translateX(15px) scale(1.1) rotate(360deg);
@@ -185,12 +200,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-cell:hover {
     color: var(--main-font-color);
-}
-
-@media only screen and (max-width: 700px) {
-    .social-grid {
-        display: none;
-    }
 }
 
 .main-body {
