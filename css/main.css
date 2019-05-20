@@ -115,28 +115,6 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.slide-left, .slide-top {
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.slide-top-animated, .slide-bottom-animated, .slide-left-animated {
-    visibility: visible;
-    pointer-events: all;
-}
-
-.slide-top-animated {
-    animation: slide-from-top .5s ease-out;
-}
-
-.slide-bottom-animated {
-    animation: slide-from-bottom .5s ease-out;
-}
-
-.slide-left-animated {
-    animation: slide-from-left .5s ease-out;
-}
-
 @media only screen and (max-width: 700px) {
     .social-grid {
         position: relative;
